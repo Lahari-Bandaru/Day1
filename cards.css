@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(201, 242, 228);
+}
+
 .cards{
     display:flex;
     margin: 10px 20px;
@@ -6,7 +10,7 @@
 }
 .cards .card img{
     object-fit: contain;
-    max-width: 60%;
+    max-width: 50%;
     border: 2px solid #111;
     margin: 20px 30px;
 }
@@ -14,5 +18,5 @@
     transition: transform 420ms;
 }
 .cards .card:hover{
-    transform: scale(1.09);
+    transform: scale(1.09);
 }
